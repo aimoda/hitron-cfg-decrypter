@@ -19,4 +19,8 @@ python decrypt.py -i sample.cfg.enc
 python decrypt.py -i sample.cfg.dec -m encrypt
 ```
 
+## Getting the CFG
+
+![Admin -> Backup -> Backup](web-screenshot.png)
+
 Thanks to Michael Henke (@henkman) for his previous work on the Hitron CVE-30360. 
