@@ -28,7 +28,7 @@ def main():
 	file_handle = open(input_filename, "rb")
 
 	# Source: https://github.com/habohitron/habohitron/blob/6add0d002fe553f0924a3bba197994c53ca7d52d/firmwares/3.1.1.21/analyse/hc.c#L17
-	key = des(b"W\x8a\x95\x8e=\xd93\xfc", ECB)
+	key = des(b"W\x8a\x95\x8e=\xd93\xfc", ECB, pad=" ", padmode=PAD_NORMAL)
 
 	output = None
 
